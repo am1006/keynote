@@ -1,10 +1,14 @@
-% arguelles v2.4.2
+% keynote
+% author: Leopold Zhou
+% 
+% Based on the Argüelles theme by Michele Piazzai, licensed under MIT; see below.
+% arguelles
 % author: Michele Piazzai
 % https://github.com/piazzai
 % license: MIT
 
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesPackage{beamerthemeArguelles}[2024/06/11 Argüelles]
+\ProvidesPackage{beamerthemeKeynote}[2024/08/26 Keynote]
 
 \mode<presentation>
 
@@ -52,10 +56,10 @@
 \usetikzlibrary{calc}
 
 % components
-\useinnertheme{Arguelles}
-\useoutertheme{Arguelles}
-\usecolortheme{Arguelles}
-\usefonttheme{Arguelles}
+\useinnertheme{Keynote}
+\useoutertheme{Keynote}
+\usecolortheme{Keynote}
+\usefonttheme{Keynote}
 
 % sans font
 \if@optSans
@@ -68,7 +72,7 @@
 
 % frame numbers
 \if@optFrameno
-    \defbeamertemplate*{footline}{Arguelles}{
+    \defbeamertemplate*{footline}{Keynote}{
         \usebeamerfont{footline section}\hfill\raisebox{.025\paperheight}{
             \insertframenumber\hspace{.01\paperwidth}
         }
